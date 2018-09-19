@@ -94,8 +94,6 @@ class Solution
 
     static void Main(string[] args)
     {
-        int[] f = new int[] { 73, 67, 38, 33 };
-        var x = gradingStudents(f);
         TextWriter tw = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int n = Convert.ToInt32(Console.ReadLine());
